@@ -1,0 +1,21 @@
+.fontChange {
+    font-family: 'Roboto', sans-serif;
+}
+#section1 {
+    position: relative;
+    top: 50vh;
+    
+}
+#section1 h1 {
+    font-size: 100px;
+    font-weight: 500;
+    margin:0;
+}
+#section1 .left {
+    position: relative;
+    left: -12vw;
+}
+#section1 .right {
+    position: relative;
+    left: 14vw;
+}

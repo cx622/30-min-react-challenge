@@ -1,0 +1,38 @@
+html {
+  /* padding: 5vw; */
+  overflow-x: clip;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: max-content;
+  width: 100%;
+  
+}
+#background {
+  background-image: url("https://uploads-ssl.webflow.com/5f00ac7516929863f832df2c/5f4bfbcbb2f92145c5b96518_06.%20Wisteria.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
+  overflow: clip;
+  animation: fadein 1s ease-in 1s forwards;
+  display:hidden;
+  opacity: 0%;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0%;
+    display: block;
+  }
+  100% {
+    opacity: 100%;
+    display: block;
+  }
+}
